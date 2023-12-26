@@ -1,0 +1,391 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.navbar1{
+    width: 100%;
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    z-index: 100;
+    position: fixed;
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+    color: black;
+    position: fixed;
+    z-index: 100;
+}
+.navbar h1{
+    display: inline-block;
+    padding: 10px;
+    padding-left: 50px;
+    font-family: fantasy;
+    font-size: 35px;
+}
+.navbar h1 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+.navbar ul li{
+    float: left;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding-right: 40px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.body1{
+    width: 100%;
+    max-height: auto;
+    overflow: hidden;
+}
+.vid{
+    overflow: hidden;
+    width: 100%;
+    max-height: 100%;
+}
+video{
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+}
+.content1{
+    color: white;
+    max-width: 50%;
+    max-height: 250px;
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    text-align: left;
+    overflow: hidden;
+}
+.content1 h1{
+   font-family: 'Times New Roman', Times, serif ;
+   font-size: 60px;
+   font-weight: 500;
+}
+.content1 p{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.mid1{
+    background-color: rgba(239, 214, 239, 0.388);
+}
+.mid{
+    width: 100%;
+    height: auto;
+    
+    padding: 50px;
+}
+.midcontainer{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.containers{
+    
+    display: inline-block;
+    max-width: 300px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.containers .bi{
+    font-size: 40px;
+}
+.containers h2{
+    font-family:sans-serif;
+}
+.about{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+.about1{
+    width: 100%;
+    height: auto;
+    background-image: url(img/Savin-NY-Website-Background-Web.jpg);
+    background-size: contain;
+}
+.about h1{
+    width: 100%;
+}
+.aboutcontainer{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.aboutcontainer h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutcontainer p{
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.package{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.package,.tour h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.packcontainer{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin-top: 20px;
+}
+.packcontainer1{
+    padding: 40px;
+}
+.packimg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.packimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.packimg img:hover{
+    transform: scale(1.1);
+}
+.packcontent{
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.packcontent a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+}
+.tour{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.tours{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tourcontainers{
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.tourcontainers .image{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease-in-out;
+}
+.image img:hover{
+    transform: scale(1.2);
+}
+.tourcontent .bi{
+    display: inline-block;
+}
+.tourcontent p{
+    display: inline-block;
+}
+.tourcontent .p1{
+    color: rgb(224, 165, 70);
+}
+.tourcontent{
+    padding: 10px;
+    text-align: left;
+}
+.tourcontent h2{
+    font-size: 21px;
+}
+.connectbackground{
+    max-width: 100%;
+    height: auto;
+    background-image: url(img/world-map-with-countries-borders_47243-900.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    margin-top: 100px;
+}
+.connect1{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    
+}
+.connect1 h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.connect{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.connect a{
+    text-decoration: none;
+    color: black;
+}
+.connect .icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffb700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+.connect2 input,button{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+.connect2::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+}
+.connect2 button{
+    margin-top: 20px;
+    background-color: #ffb700;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    
+}
+.update{
+    width: 100%;
+    height: auto;
+    background-color: #eceaea;
+}
+.update1{
+    width: 80%;
+    height: auto;
+    padding: 40px;
+}
+.update1 h3{
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+}
+.update1 input{
+    width: 70%;
+    height: 50px;
+}
+.update1 a{
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+.upimg{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.footer1{
+    background-color: black;
+    color: #cac6c6e2;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    justify-content: center;
+}
+.footer h3,h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+.fcontent{
+    height: auto;
+    border-left: 5px solid #cac6c6e2;
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+}
+.fcontent a{
+    color: black;
+}
+.fcontent .bi{
+    font-size: 20px;
+    color: #cac6c6e2;
+}
+.footer hr{
+    size: 15;
+    color: #cac6c6e2;
+}
+.foot{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+}
